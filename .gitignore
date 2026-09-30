@@ -1,9 +1,11 @@
 # Virtual Environment
 .venv/
-#secrets
+# secrets
 .env
-#data
-data/
-#Python / Jupyter clutter
+# data: ignore the contents, keep the folders
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+# Python / Jupyter clutter
 .ipynb_checkpoints/
 __pycache__/
