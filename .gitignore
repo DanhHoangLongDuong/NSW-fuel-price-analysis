@@ -6,3 +6,4 @@
 data/
 #Python / Jupyter clutter
 .ipynb_checkpoints/
+__pycache__/
